@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.latar{
+    margin-top: 100px;
+}
+.latarform{
+    background-color: black;
+    padding: 50px 0px 20px 0px;
+}
+.tampillayar{
+    margin:0px 0px 0px -17px;
+    width: 104%;
+}
+.firstButtons{
+    background-color: yellow;
+
+}
+.btnNew{
+    width:50px;
+    padding: 15px;
+    margin: 5px 5px 5px 0px;
+}
+.btnWarna{
+    margin: 20px 0px 0px 50px;
+}

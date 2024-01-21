@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalkulator</title>
+    <link href="bootstrap-5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <article class="container-fluid latar">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4 hasil">
+          <main>
+            <form action="test.php" method="post" id="form" target="_blank" class="latarform">
+              <div class="row ">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                  <input id="tampilanInput"  class="form-control tampillayar"  disabled>
+                </div>
+                <div class="col-sm-2"></div>
+              </div>
+              <div class="row " id="firstButtons">
+                      <div class="row test">
+                        <div class="col-sm-2"></div>            
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="AC" class="btn btnNew btn-dark text-success ">AC</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button name="+/-" class="btn btnNew btn-dark text-success">+/-</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button name="%" class="btn btnNew btn-dark text-success">%</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="/" class="btn btnNew btn-dark text-danger">/</button>
+                        </div>
+                        <div class="col-sm-2"></div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-2"></div>            
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="7" class="btn btnNew btn-dark">7</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="8" class="btn btnNew btn-dark">8</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary" >
+                          <button value="9" class="btn btnNew btn-dark">9</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="*" class="btn btnNew btn-dark text-danger">x</button>
+                        </div>
+                        <div class="col-sm-2"></div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-2"></div>            
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="4" class="btn btnNew btn-dark">4</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="5" class="btn btnNew btn-dark">5</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary" >
+                          <button value="6" class="btn btnNew btn-dark">6</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="-" class="btn btnNew btn-dark text-danger ">-</button>
+                        </div>
+                        <div class="col-sm-2" ></div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-2"></div>            
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="1" class="btn btnNew btn-dark">1</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="2" class="btn btnNew btn-dark">2</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary" >
+                          <button value="3" class="btn btnNew btn-dark">3</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="+" class="btn btnNew btn-dark text-danger">+</button>
+                        </div>
+                        <div class="col-sm-2"></div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-2"></div>            
+                        <div class="col-sm-2 bg-secondary">
+                          <button name="c" class="btn btnNew btn-dark">C</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="0" class="btn btnNew btn-dark">0</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary" >
+                          <button value="." class="btn btnNew btn-dark">.</button>
+                        </div>
+                        <div class="col-sm-2 bg-secondary">
+                          <button value="=" class="btn btnNew btn-dark text-danger">=</button>
+                        </div>
+                        <div class="col-sm-2"></div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <button id="gelap" class="btn btnWarna btn-dark" name="gelap">Gelap</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button id="terang" class="btn btnWarna btn-light" name="terang">Terang</button>
+                        </div>
+                      </div>
+              </div>
+            </form>
+          </main>
+        </div>
+        <div class="col-md-4"></div>
+        
+        
+      </div>
+    </article>
+    <!-- <div class="container-fluid">
+      
+    </div> -->
+    <script src="bootstrap-5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="data.js"></script>
+  </body>
+</html>

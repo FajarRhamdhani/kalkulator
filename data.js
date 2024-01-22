@@ -51,7 +51,8 @@ class Calculator {
                 buttons = arr[i]
                 buttons.addEventListener('click', (e) => {
                     if(buttons.name === "%"){
-                        this.layar.value=eval(this.layar.value/100)
+                        this.layar.value=eval(this.layar.value)
+                        this.layar.value=eval(this.layar.value * 1/100)
                     }else{
                         e.preventDefault()
                     }
